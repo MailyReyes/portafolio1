@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>May Reyes</title>
+    <style>
+        #saludo {
+            position: absolute;
+            top: 50px;
+            font-size: 50px;
+            color: violet;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1 {
+            color: darkcyan;
+            font-size: 65px;
+            font-style: normal;
+        }
+        #cuadrado {
+            background-color: lightcoral;
+            height: 100px;
+            width: 100px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            border: 2px solid red;
+        }
+        #circulo {
+            background-color: red;
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            margin: 12px;
+            border: 2px solid white;
+        }
+        #barra{
+            width: 100%;
+            background-color: violet;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            color: teal;
+            font-weight: 100;
+            font-size: 25px;
+            font-style: normal;
+            text-decoration: yellow;
+            margin: 6px;
+        }
+        img{
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="barra">
+        <a href="#saludo">Saludo</a>
+        <a href="#cuadrado">Cuadrado</a> 
+    </nav>
+    <img src="diseño2.jpg" alt="">
+
+    <h1>May Reyes</h1>
+    <h1 id="saludo">Hola Soy May</h1>
+    <section>
+        <div id="cuadrado">
+            <h2>Mi contenedor</h2>
+            <div id="circulo"></div>
+        </div>
+        <h2>Cosas que me gustan</h2>
+        <ul>
+            <li>Comer</li>
+            <li>Bailar</li>
+            <li>Jugar</li>
+        </ul>
+    </section>
+    
+</body>
+</html>
